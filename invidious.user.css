@@ -65,6 +65,7 @@
       --ctp-base: #eff1f5;
       --ctp-mantle: #e6e9ef;
       --ctp-crust: #dce0e8;
+      --ctp-text-inverted: var(--ctp-base);
     }
 
     if (flavour=="Frappe") {
@@ -94,6 +95,7 @@
       --ctp-base: #303446;
       --ctp-mantle: #292c3c;
       --ctp-crust: #232634;
+      --ctp-text-inverted: var(--ctp-crust);
     }
 
     if (flavour=="Macchiato") {
@@ -123,6 +125,7 @@
       --ctp-base: #24273a;
       --ctp-mantle: #1e2030;
       --ctp-crust: #181926;
+      --ctp-text-inverted: var(--ctp-crust);
     }
 
     if (flavour=="Mocha") {
@@ -152,6 +155,7 @@
       --ctp-base: #1e1e2e;
       --ctp-mantle: #181825;
       --ctp-crust: #11111b;
+      --ctp-text-inverted: var(--ctp-crust);
     }
 
   }
