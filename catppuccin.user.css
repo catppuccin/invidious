@@ -240,6 +240,39 @@
     color: var(--ctp-text-inverted) !important;
   }
 
+
+  .video-js .vjs-control-bar,
+  .vjs-menu-button-popup .vjs-menu .vjs-menu-content { background-color: var(--ctp-crust) !important; }
+
+  .video-js .vjs-control-bar,
+  .vjs-menu-button-popup .vjs-menu .vjs-menu-content { color: var(--ctp-text) !important; }
+
+  .video-js .vjs-slider:hover,
+  .video-js button:hover { color: var(--ctp-green) m !important; }
+
+  .video-js .vjs-slider { background-color: var(--ctp-surface2) !important; }
+
+  .video-js .vjs-load-progress,
+  .video-js .vjs-load-progress div { background-color: var(--ctp-surface2) !important; }
+
+  .video-js.player-style-invidious .vjs-play-progress { background-color: var(--ctp-green) !important; }
+
+  .vjs-menu li.vjs-menu-item:focus,
+  .vjs-menu li.vjs-menu-item:hover {
+    background-color: var(--ctp-surface0) !important;
+    color: var(--ctp-text) !important;
+  }
+
+  .vjs-menu li.vjs-selected,
+  .vjs-menu li.vjs-selected:focus,
+  .vjs-menu li.vjs-selected:hover { background-color: var(--ctp-blue) !important; }
+
+  .vjs-menu li.vjs-selected,
+  .vjs-menu li.vjs-selected:focus,
+  .vjs-menu li.vjs-selected:hover,
+  .js-focus-visible .vjs-menu li.vjs-selected:hover { color: var(--ctp-text-inverted) !important; }
+
+
   #related-videos > .h-box > div:not(#autoplay-controls) { margin-bottom: 48px !important; }
 
   footer,
