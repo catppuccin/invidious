@@ -14,7 +14,27 @@
 
 ==/UserStyle== */
 
-@-moz-document url-prefix("https://invidio.xamh.de/") {
+@-moz-document url-prefix("https://invidious.namazso.eu"),
+               url-prefix("https://inv.vern.cc"),
+               url-prefix("https://invidious.projectsegfau.lt"),
+               url-prefix("https://invidious.sethforprivacy.com"),
+               url-prefix("https://inv.bp.projectsegfau.lt"),
+               url-prefix("https://invidious.slipfox.xyz"),
+               url-prefix("https://y.com.sb"),
+               url-prefix("https://inv.riverside.rocks"),
+               url-prefix("https://invidious.flokinet.to"),
+               url-prefix("https://invidious.rhyshl.live"),
+               url-prefix("https://invidious.snopyta.org"),
+               url-prefix("https://invidio.xamh.de"),
+               url-prefix("https://vid.puffyan.us"),
+               url-prefix("https://yewtu.be"),
+               url-prefix("https://invidious.nerdvpn.de"),
+               url-prefix("https://invidious.tiekoetter.com"),
+               url-prefix("https://invidious.esmailelbob.xyz"),
+               url-prefix("https://yt.artemislena.eu"),
+               url-prefix("https://inv.privacy.com.de"),
+               url-prefix("https://invidious.kavin.rocks"),
+               url-prefix("https://youtube.076.ne.jp") {
 
   colourscheme(flavour) {
 
