@@ -2,7 +2,7 @@
 @name           Invidious Catppuccin
 @namespace      github.com/catppuccin/invidious
 @homepageURL    https://github.com/catppuccin/invidious
-@version        0.2.02
+@version        0.2.03
 @description    Soothing pastel theme for Invidious
 @author         Catppuccin
 @updateURL      https://github.com/catppuccin/invidious/raw/main/catppuccin.user.css
@@ -35,7 +35,8 @@
                url-prefix("https://inv.privacy.com.de"),
                url-prefix("https://invidious.kavin.rocks"),
                url-prefix("https://youtube.076.ne.jp"),
-               url-prefix("https://invidious.thewatcherpi.de") {
+               url-prefix("https://invidious.thewatcherpi.de"),
+               url-prefix("https://iv.winston.sh") {
 
   colourscheme(flavour) {
 
