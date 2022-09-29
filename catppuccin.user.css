@@ -2,7 +2,7 @@
 @name           Invidious Catppuccin
 @namespace      github.com/catppuccin/invidious
 @homepageURL    https://github.com/catppuccin/invidious
-@version        0.2.01
+@version        0.2.02
 @description    Soothing pastel theme for Invidious
 @author         Catppuccin
 @updateURL      https://github.com/catppuccin/invidious/raw/main/catppuccin.user.css
@@ -171,7 +171,7 @@
   }
 
 
-  .dark-theme {
+  :root, .dark-theme {
     if (darktheme=="Latte")     { colourscheme(Latte) }
     if (darktheme=="Frappe")    { colourscheme(Frappe) }
     if (darktheme=="Macchiato") { colourscheme(Macchiato) }
