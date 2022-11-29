@@ -274,6 +274,27 @@
   .vjs-menu li.vjs-selected:hover,
   .js-focus-visible .vjs-menu li.vjs-selected:hover { color: var(--ctp-text-inverted) !important; }
 
+  .vjs-modal-dialog-content {
+    backdrop-filter: blur(4px);
+  }
+
+  .vjs-share__title {
+    color: var(--ctp-text) !important;
+  }
+  .vjs-share__subtitle {
+    color: var(--ctp-subtext0) !important;
+    opacity: 100% !important;
+  }
+  .vjs-share__short-link {
+    color: var(--ctp-text) !important;
+    background: var(--ctp-base) !important;
+  }
+  .vjs-share__btn {
+    background: var(--ctp-crust) !important;
+    svg path {
+      fill: var(--ctp-text) !important;
+    }
+  }
 
   #related-videos > .h-box > div:not(#autoplay-controls) { margin-bottom: 48px !important; }
 
