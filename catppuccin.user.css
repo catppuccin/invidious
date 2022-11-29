@@ -280,10 +280,38 @@
   footer,
   footer a { color: var(--ctp-subtext0) !important; }
 
+
+  .pure-form-message-inline {
+    color: var(--ctp-subtext0);
+  }
+
   select, input[type=number], input[type=input] {
     color: var(--ctp-text) !important;
     background: var(--ctp-surface0) !important;
     border-color: var(--ctp-crust) !important;
     box-shadow: none !important;
+  }
+  input[type=checkbox], {
+    background-color: var(--ctp-surface2);
+    border: 1px solid var(--ctp-crust);
+    height: 1rem;
+    width: 1rem;
+    -webkit-appearance: none;
+    appearance: none;
+    outline: none;
+    cursor: pointer;
+  }
+
+  input[type=checkbox]:checked {
+    border: 1px solid var(--ctp-crust);
+    background-color: var(--ctp-subtext1);
+  }
+
+  input[type=checkbox]:checked::before {
+    content: '\2713';
+    display: block;
+    text-align: center;
+    color: var(--ctp-crust);
+    margin-top: -0.13rem;
   }
 }
