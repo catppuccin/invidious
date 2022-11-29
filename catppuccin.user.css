@@ -295,23 +295,6 @@
       fill: var(--ctp-text) !important;
     }
   }
-  .vjs-share__social {
-    svg path {
-      fill: var(--ctp-base) !important;
-    }
-    &[data-social="fbFeed"] {
-      background-color: var(--ctp-blue);
-    }
-    &[data-social="tw"] {
-      background-color: var(--ctp-blue);
-    }
-    &[data-social="reddit"] {
-      background-color: var(--ctp-red);
-    }
-    &[data-social="email"] {
-      background-color: var(--ctp-green);
-    }
-  }
 
   #related-videos > .h-box > div:not(#autoplay-controls) { margin-bottom: 48px !important; }
 
