@@ -280,4 +280,10 @@
   footer,
   footer a { color: var(--ctp-subtext0) !important; }
 
+  select, input[type=number], input[type=input] {
+    color: var(--ctp-text) !important;
+    background: var(--ctp-surface0) !important;
+    border-color: var(--ctp-crust) !important;
+    box-shadow: none !important;
+  }
 }
