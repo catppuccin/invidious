@@ -285,7 +285,7 @@
     color: var(--ctp-subtext0);
   }
 
-  select, input[type=number], input[type=input] {
+  select, input[type=number], input[type=input], .pure-input-1 {
     color: var(--ctp-text) !important;
     background: var(--ctp-surface0) !important;
     border-color: var(--ctp-crust) !important;
