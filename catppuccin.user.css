@@ -96,6 +96,10 @@
     background-color: @base !important;
     color: @text !important;
 
+    ::placeholder {
+      color: @subtext0;
+    }
+
     &::-webkit-scrollbar {
       width: 0.25rem;
       background: transparent;
@@ -104,6 +108,10 @@
     &::-webkit-scrollbar-thumb {
       border-radius: 9999px;
       background: @accentColor;
+    }
+
+    #logo .pure-menu-heading {
+      color: @accentColor;
     }
 
     a,
