@@ -147,6 +147,14 @@
       color: @crust !important;
     }
 
+    #filters-box {
+      background-color: @surface0 !important;
+    }
+
+    .underlined {
+      border-color: @overlay1;
+    }
+
     .video-js .vjs-control-bar,
     .vjs-menu-button-popup .vjs-menu .vjs-menu-content {
       background-color: @crust !important;
