@@ -254,9 +254,11 @@
 
   .light-theme {
     #catppuccin(@lightFlavor, @accentColor);
+    color-scheme: light;
   }
   .dark-theme {
     #catppuccin(@darkFlavor, @accentColor);
+    color-scheme: dark;
   }
 }
 
