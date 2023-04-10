@@ -92,6 +92,7 @@
       }
     }
 
+    color-scheme: if(@lookup = latte, light, dark);
     background-color: @base !important;
     color: @text !important;
 
@@ -252,13 +253,24 @@
     }
   }
 
+  // synced colorscheme
+  @media (prefers-color-scheme: light) {
+    .no-theme {
+      #catppuccin(@lightFlavor, @accentColor);
+    }
+  }
+  @media (prefers-color-scheme: dark) {
+    .no-theme {
+      #catppuccin(@darkFlavor, @accentColor);
+    }
+  }
+
+  // manually set colorscheme
   .light-theme {
     #catppuccin(@lightFlavor, @accentColor);
-    color-scheme: light;
   }
   .dark-theme {
     #catppuccin(@darkFlavor, @accentColor);
-    color-scheme: dark;
   }
 }
 
