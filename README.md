@@ -49,6 +49,7 @@
 ## 💝 Thanks to
 
 - [Andreas Grafen](https://github.com/andreasgrafen)
+- [Winston](https://github.com/nekowinston)
 
 &nbsp;
 
