@@ -2,15 +2,15 @@
 @name           Invidious Catppuccin
 @namespace      github.com/catppuccin/invidious
 @homepageURL    https://github.com/catppuccin/invidious
-@version        0.3.0
+@version        0.3.1
 @description    Soothing pastel theme for Invidious
 @author         Catppuccin
 @updateURL      https://github.com/catppuccin/invidious/raw/main/catppuccin.user.css
 @preprocessor   less
 @var select lightFlavor "Light Flavor" ["latte:Latte*", "frappe:Frappé", "macchiato:Macchiato", "mocha:Mocha"]
 @var select darkFlavor "Dark Flavor" ["latte:Latte", "frappe:Frappé", "macchiato:Macchiato", "mocha:Mocha*"]
-@var select accentColor "Accent Color" [ "rosewater:Rosewater", "flamingo:Flamingo", "pink:Pink", "mauve:Mauve", "red:Red", "maroon:Maroon", "peach:Peach", "yellow:Yellow", "green:Green*", "teal:Teal", "blue:Blue", "sapphire:Sapphire", "sky:Sky", "lavender:Lavender", "subtext0:Gray" ]
-
+@var select accentColor "Accent Color" [ "rosewater:Rosewater", "flamingo:Flamingo", "pink:Pink", "mauve:Mauve", "red:Red", "maroon:Maroon", "peach:Peach", "yellow:Yellow", "green:Green", "teal:Teal", "blue:Blue*", "sapphire:Sapphire", "sky:Sky", "lavender:Lavender", "subtext0:Gray" ]
+@var checkbox styleVideoPlayer "Style Video Player" 1
 ==/UserStyle== */
 @-moz-document url-prefix("https://inv.bp.projectsegfau.lt"),
                url-prefix("https://inv.privacy.com.de"),
@@ -20,6 +20,7 @@
                url-prefix("https://invidious.esmailelbob.xyz"),
                url-prefix("https://invidious.flokinet.to"),
                url-prefix("https://invidious.kavin.rocks"),
+               url-prefix("https://invidious.namazso.eu")
                url-prefix("https://invidious.nerdvpn.de"),
                url-prefix("https://invidious.projectsegfau.lt"),
                url-prefix("https://invidious.rhyshl.live"),
@@ -34,7 +35,6 @@
                url-prefix("https://yewtu.be"),
                url-prefix("https://youtube.076.ne.jp"),
                url-prefix("https://yt.artemislena.eu"),
-               url-prefix("https://invidious.namazso.eu")
 {
   /* prettier-ignore */
   @catppuccin: {
@@ -266,6 +266,15 @@
       appearance: none;
       outline: none;
       cursor: pointer;
+    }
+
+    // video player background
+    #player-container > .video-js > video,
+    // placeholder for loading thumbnails
+    .vjs-poster {
+      & when (@styleVideoPlayer = 1) {
+        background-color: @mantle !important;
+      }
     }
   }
 
